@@ -21,7 +21,7 @@ const calculateExpr = (firstNum, secondNum, oper) => {
     case operator.prod:
       return firstNum * secondNum
     default:
-      return (Unknown '${oper}'!)
+      return (`Unknown '${oper}'!`)
   }
 }
 
@@ -30,7 +30,7 @@ const getCalcGameOptions = () => {
   const randB = getRandomNum(limit.min, limit.max)
   const randOper = Object.values(operator)[getRandomNum(0, Object.keys(operator).length - 1)]
 
-  const expression = ${randA} ${randOper} ${randB}
+  const expression = `${randA} ${randOper} ${randB}`
 
   const value = calculateExpr(randA, randB, randOper)
 
