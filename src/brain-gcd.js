@@ -11,7 +11,7 @@ const startRound = () => {
   const number1 = generateRandomNumber(min, max)
   const number2 = generateRandomNumber(min, max)
 
-  const expression = ${number1} ${number2}
+  const expression = `${number1} ${number2}`
   const answer = getNOD(number1, number2).toString()
 
   return {
