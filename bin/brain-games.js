@@ -1,5 +1,5 @@
-console.log('Welcome to the Brain Games!');
-const readlineSync = require('readline-sync');
+#!/usr/bin/env node
 
-const name = readlineSync.question('May I have your name? ');
-console.log(`Hello, ${name}!`);
+import startHello from '../src/cli.js'
+
+startHello()
