@@ -16,7 +16,7 @@ const startEngine = (rule, getGameOptions) => {
       console.log('Correct!')
     }
     else {
-      console.log('${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.)
+      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
       console.log(`Let's try again, ${userName}!`)
       return
     }
@@ -26,4 +26,5 @@ const startEngine = (rule, getGameOptions) => {
 }
 
 export default startEngine
+
 
