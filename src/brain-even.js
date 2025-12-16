@@ -12,7 +12,7 @@ const isEven = num => num % 2 === 0
 const getEvenGameOptions = () => {
   const randNum = getRandomNum(limit.min, limit.max)
 
-  const expression = ${randNum}
+  const expression = `${randNum}`
 
   const answer = isEven(randNum) ? 'yes' : 'no'
 
