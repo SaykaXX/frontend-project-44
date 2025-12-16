@@ -26,5 +26,3 @@ const startEngine = (rule, getGameOptions) => {
 }
 
 export default startEngine
-
-
